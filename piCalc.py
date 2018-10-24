@@ -26,6 +26,7 @@ while(round(pi_2,2)!=3.14):
     j = j+1
 #This loop runs until pi becomes the rounded value even once
 #The number fluctuates around pi, one above, one below
+    
 #What if we want to know when both the above and below
     #calculation are accurate to 2 decimal places
     
@@ -45,15 +46,11 @@ while(not accurate):
         pi_3 += (4/int_denom)
         
     k+=1
-    if(round(pi_b4-3.14,2)==0.01 or round(pi_b4-3.14,2)==0.00):
-       if(round(pi_3-3.14,2)==0.01 or round(pi_3-3.14,2)==0.00):
-            accurate=True
+    if(abs(pi_b4-pi_3)<0.001):
+        accurate=True
     
 
 print(k)
-list = [1,2,3]
-list.append(4)
-for x in list:
-    print(x**2)
+
 
     
