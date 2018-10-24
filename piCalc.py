@@ -24,6 +24,8 @@ while(round(pi_2,2)!=3.14):
         pi_2 += (4/int_denom)
     
     j = j+1
+    
+print(j)
 #This loop runs until pi becomes the rounded value even once
 #The number fluctuates around pi, one above, one below
     
@@ -46,7 +48,8 @@ while(not accurate):
         pi_3 += (4/int_denom)
         
     k+=1
-    if(abs(pi_b4-pi_3)<0.001):
+    
+    if(round(pi_b4-3.1416,4)==0.00 and round(pi_3-3.1416,4)==0.00):
         accurate=True
     
 
