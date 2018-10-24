@@ -25,7 +25,8 @@ while(round(pi_2,2)!=3.14):
     
 print(j)
 #This loop runs until pi becomes the rounded value even once
-#The number fluctuates around pi, one above, one below
+#But The number fluctuates around pi, one above, one below
+    
     
 #What if we want to know when both the above and below
     #calculation are accurate to 2 decimal places
