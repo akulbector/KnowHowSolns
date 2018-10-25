@@ -1,3 +1,5 @@
+#https://docs.google.com/presentation/d/1bTFSBVv8Xv6egY9-bMNUQGmqUQL545IDwDMEF_v78lk/edit#slide=id.g433a078be2_0_67
+
 str_input = input("What is your name and age? ")
 #Example Solution for part 1:
 
